@@ -5,8 +5,6 @@ async function main(){
 
     const response = await fetch('http://localhost:9001/counter')
     const result = await response.json();
-
-
                                 
     let countValue = result.value;
 
